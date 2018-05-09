@@ -1,0 +1,5 @@
+HOw to group HTML element?
+
+  <div> -> Used to group other HTML elements.
+
+  <span> -> Used to Group text.
