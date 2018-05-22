@@ -1,0 +1,38 @@
+<html>
+<head>
+
+
+</head>
+
+<body>
+<h1> Students Information </h1>
+
+<div id="info"></div>
+<a href="localStorage.html"> Go Back </a>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+
+var name = localStorage.getItem("personName");
+var id = localStorage.getItem("studentID");
+var program = localStorage.getItem("Course");
+
+$("#info").append("<p> Student Name: " +name + "</p>"
+              + "<p> Student ID: " + id + "</p>"
+              + "<p> Program: " + program + "</p>"
+
+
+
+          );
+
+
+
+console.log(name);
+
+
+
+</script>
+</body>
+
+</html>
